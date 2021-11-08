@@ -1,0 +1,15 @@
+﻿@model Viddly3.Models.Customer
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>@Model.Name</h2>
+
+<ul>
+    <li>Birth Date: @Model.BirthDate</li>
+    <li>Is Subscribed to Newsletter: @Model.IsSubscribedToNewsLetter</li>
+    <li>Membership Type: @Model.MembershipType.Name</li>
+
+</ul>
+
+
